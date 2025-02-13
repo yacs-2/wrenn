@@ -1,4 +1,21 @@
 body {
-background-color: #DAB4DA;
-  color: black;
+  background-color:#D1F09E;
+  color:black;
+  text-align:left;
+font-family:Baskervville;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.heading {
+  font-family: 'Edu AU VIC WA NT Hand',
+    cursive;
+  text-align: center;
+  font-size:300%
+    color:black;
+  text-shadow:#FFC7A9 2px 2px
+}
+
+h2.heading {
+  font-size:200%  
 }
