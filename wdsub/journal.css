@@ -1,0 +1,39 @@
+#preheader{
+ text-align:center;
+  font-family:sans-serif;
+      background-color: #fff;
+}
+#header{
+  text-align:center;
+  font-family:sans-serif;
+  
+  
+}
+.sticky{
+  position:sticky;
+  top:0px;
+  display:inline-block;
+  width:24%;
+      background-color: #fff;
+}
+#bg{
+  z-index:-999;
+  width:100vw;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  position:fixed;
+  background-color:white
+}
+body{
+text-align:center;
+ font-family:sans-serif;
+}
+#footer{
+  font-size: 75%;
+    width: 100%;
+    background-color:black;
+    color: #eee;
+    margin: 0px;
+ 
+}
