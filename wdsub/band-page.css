@@ -1,7 +1,7 @@
 body{
   margin:0px;
 }
-#content,#album,#info{
+#content, #album, #info{
   float:left;
 }
 #content{
@@ -10,11 +10,11 @@ body{
 }
 #album{
   border:solid 2px blue;
-  width:30%
+  max-width:10%;
 }
 #info{
 border:solid 2px green;
-  max-width:19%;
+  max-width:20%;
 }
 
 #player audio::-webkit-media-controls-play-button{
@@ -26,4 +26,26 @@ border:solid 2px green;
 }
 #player button{
   float:left;
+}
+#tracklist{
+  list-style-type:none
+}
+.track-li{
+  font-size:125%;
+  font-style:italic;
+}
+.track-player::-webkit-media-controls-panel{
+  background-color:rgba(255,255,255,1)
+  
+}
+.track-player{
+  height:1em;
+}
+#info-img{
+  max-width:80%;
+  margin:auto;
+  display:block;
+}
+#album-cover{
+  width:100%
 }
