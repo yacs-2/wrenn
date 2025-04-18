@@ -1,0 +1,12 @@
+body{
+  margin:0;
+  background-color:#D1F09E;
+}
+#to-do-list{
+  list-style-type: none;
+}
+#preheader {
+      text-align: center;
+    font-family: sans-serif;
+    background-color: #fff;
+}
