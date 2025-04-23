@@ -55,3 +55,41 @@ width:100vw;
   top:0px;
   left:0px;
 }
+
+
+#nav-list {
+  display:flex;
+  justify-content: center;
+  list-style-type:none;
+  position:relative;
+  background-color:#F3C5FF;
+  align-content:center;
+
+  
+}
+#nav-list > li{
+  flex-grow:1;
+  display:block;
+  margin:auto;
+  
+}
+
+#nav-list ul {
+  display:none;
+   background-color:#E2B4BB;
+  width:100%;
+}
+#nav-list li:hover{
+  background-color:#E2B4BB;
+  color:#F3C5FF
+}
+
+
+#nav-list li:hover ul{
+  display:block;
+}
+#nav-list li ul{
+  list-style-type:none;
+  padding:0px;
+  position:absolute;
+}
