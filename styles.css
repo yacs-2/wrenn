@@ -94,6 +94,109 @@ width:100vw;
 
 #nav-list li:hover ul{
   display:block;
+  width:100%
+}
+#nav-list li ul{
+  list-style-type:none;
+  padding:0px;
+  position:absolute;
+}body {
+  background-color:#D1F09E;
+  color:black;
+  text-align:left;
+font-family:Baskervville;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.heading {
+  font-family: 'Edu AU VIC WA NT Hand',
+    cursive;
+  text-align: center;
+  font-size:300%
+    color:black;
+  text-shadow:#FFC7A9 2px 2px
+}
+
+h2.heading {
+  font-size:200%  
+}
+.bordered {
+  border-style: solid;
+  border-color:#CD5C5C;
+  bordered-width:3px;
+  padding:5px;
+  border-radius:16px;
+  margin:5px;
+  background-color:#F3C5FF
+}
+
+a{
+  text-decoration:none;
+  font-weight:700;
+  color:#888888;
+}
+
+a:hover, a:visited {
+  color: #d1bec5;
+}
+hr {
+  height:2px;
+  border:0px;
+  background-color: #123456;
+}
+#footer {
+  font-size:120%;
+  text-align:center;
+}
+#bg{
+width:100vw;
+  height:100vh;
+  z-index:-999;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+
+
+#nav-list {
+  padding:0px;
+  display:flex;
+  justify-content: center;
+  list-style-type:none;
+  position:relative;
+  background-color:#F3C5FF;
+  align-content:center;
+
+  
+}
+#nav-list > li{
+  flex-grow:1;
+  display:block;
+ position: relative;
+  text-align:center;
+  margin:auto;
+  
+}
+#nav-list li a {
+  display: inline-block;
+  width:100%
+}
+
+#nav-list ul {
+  display:none;
+   background-color:#E2B4BB;
+
+}
+#nav-list li:hover{
+  background-color:#E2B4BB;
+  color:#F3C5FF
+}
+
+
+#nav-list li:hover ul{
+  display:block;
+  width:100%
 }
 #nav-list li ul{
   list-style-type:none;
