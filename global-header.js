@@ -6,4 +6,4 @@ const INJECTION ='<div id="global-preheader"><h1>Logan\'s site</h1></div><div id
 
 let_div - document.getElementById("gheader");
 
-_div.innerHTML = INJECTION
+_div.innerHTML = INJECTION;
