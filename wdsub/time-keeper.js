@@ -16,7 +16,7 @@ if (!hasInitDate) {
 	document.cookie = "init-date =" + new Date() + ";max-age=9999999999999999";
 } else {
 	let now = new Date();
-	document.cookie = "new-date" + now + "; max-age=9999999999999999"
+	document.cookie = "new-date=" + now + "; max-age=9999999999999999"
 	timeDifference = now.getTime() - initDate.getTime();
 }
 let timeSpent = document.getElementById("time-spent");
