@@ -9,6 +9,14 @@
 <script src="/wrenn/global-header.js"></script>
     
     <img id="bg" src="/wrenn/resource/bg1.jpeg">
- 
+    <h2>Welcome<span id="userspan"></span>to Logan's site</h2>
+ <scipt>
+   let urlParams = new URLSearchParams(window.location.search);
+   if (urlParams.has("variable1")) {
+let username = urlParams.get("variable1");
+   let userspan= document.getElementById("userspan");
+   userspan.innerText = " , " , + username + " ,";
+   }
+ </scipt>
   </body>
 </hmtl>
