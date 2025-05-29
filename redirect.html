@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>redirect</title>
+    <script>
+     let urlParams = URLSearchParams(window.location.search);
+      let username = urlParams.get("variable1");
+
+if(username == "MR LOGAN") {
+//redirect to secret page
+  window.location.replace("https://wrenn/github.io/wdsub/secret.html");
+} else {
+//redirect to home
+  window.location.replace("https://wrenn/github.io/wdsub/index.html");
+}
+      
+    </script>
+  </head>
+  <body>
+    <p>redirecting...</p>
+  </body>
+</html>
