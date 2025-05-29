@@ -3,7 +3,7 @@
   <head>
     <title>redirect</title>
     <script>
-     let urlParams = URLSearchParams(window.location.search);
+     let urlParams = new RLSearchParams(window.location.search);
       let username = urlParams.get("variable1");
 
 if(username == "MRLOGAN") {
